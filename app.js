@@ -48,8 +48,3 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-
-let port = 3000;
-app.listen(port, () => {
-  console.log(`The application is running on localhost:${port}`);
-});
